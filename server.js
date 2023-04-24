@@ -25,10 +25,10 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => {
-    
     console.log("connection open ");
   })
   .catch((err) => {
+    console.log(err);
     console.log("Error occurs");
   });
 
